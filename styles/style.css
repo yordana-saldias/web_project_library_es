@@ -330,6 +330,9 @@
 .footer {
   box-sizing: border-box;
   background-color: #000000;
+}
+
+.footer__columns {
   display: flex;
   justify-content: flex-end;
   padding: 60px 80px;
