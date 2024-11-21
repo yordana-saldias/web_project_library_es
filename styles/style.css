@@ -302,11 +302,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
+  display: flex;
+  gap: 40px;
+  justify-content: center;
 }
-
 .step {
-  /* Agrega estilos */
+  flex-basis: 220px;
 }
 
 .step__title {
