@@ -330,6 +330,7 @@
 .footer {
   box-sizing: border-box;
   background-color: #000000;
+  position: relative;
 }
 
 .footer__columns {
@@ -343,15 +344,15 @@
   height: 200px;
 }
 
-.footer__columns_content_hours {
+.footer__column_content_hours {
   margin-right: 40px;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   margin-left: 40px;
 }
 
-.footer__columns_content_logo {
+.footer__column_content_logo {
   position: absolute;
   top: 60px;
   left: 80px;
@@ -387,9 +388,8 @@
 }
 
 .footer__copyright {
-  position: absolute;
-  bottom: 60px;
-  left: 80px;
-  margin: 0;
   color: white;
+  position: absolute;
+  left: 80px;
+  bottom: 60px;
 }
