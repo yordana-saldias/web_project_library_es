@@ -329,13 +329,14 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000000;
   display: flex;
   justify-content: flex-end;
   padding: 60px 80px;
   position: relative;
-  background-color: #000000;
 }
-.footer__columns {
+
+.footer__column {
   height: 200px;
 }
 
