@@ -335,19 +335,19 @@
   position: relative;
   background-color: #000000;
 }
-.footer__column {
+.footer__columns {
   height: 200px;
 }
 
-.footer__column_content_hours {
+.footer__columns_content_hours {
   margin-right: 40px;
 }
 
-.footer__column_content_social {
+.footer__columns_content_social {
   margin-left: 40px;
 }
 
-.footer__column_content_logo {
+.footer__columns_content_logo {
   position: absolute;
   top: 60px;
   left: 80px;
