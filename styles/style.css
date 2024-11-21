@@ -332,6 +332,7 @@
   background-color: #1f1f1f;
   position: relative;
   padding: 60px 80px;
+  color: #ffffff;
 }
 
 .footer__columns {
@@ -363,7 +364,6 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
-  color: white;
 }
 
 .footer__list {
@@ -374,18 +374,19 @@
 
 .footer__list-item {
   margin: 16px 0 0;
-  color: white;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin: 0 10px 0 0;
 }
 
 .footer__copyright {
