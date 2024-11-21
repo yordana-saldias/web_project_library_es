@@ -329,14 +329,14 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   position: relative;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: flex-end;
-  padding: 60px 80px;
   position: relative;
 }
 
@@ -345,20 +345,21 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 40px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 .footer__column_content_logo {
   position: absolute;
-  top: 60px;
-  left: 80px;
+  top: 0;
+  left: 0;
 }
 .footer__logo {
-  background-size: 58px 80px;
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
@@ -383,7 +384,8 @@
 }
 
 .footer__social-icon {
-  background-size: 16px;
+  width: 16px;
+  height: 16px;
   margin: 0 10px 0 0;
 }
 
@@ -392,4 +394,5 @@
   position: absolute;
   left: 80px;
   bottom: 60px;
+  margin: 0;
 }
